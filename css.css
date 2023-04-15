@@ -1,0 +1,33 @@
+.chart-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #chart {
+    height: 100%;
+    margin-left: -35%;
+  }
+  
+  .chart-legend {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .chart-legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 1%;
+  }
+  
+  .chart-legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .chart-legend-label {
+    font-size: 14px;
+  }
