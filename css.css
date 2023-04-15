@@ -2,6 +2,7 @@
     position: relative;
     width: 200px;
     height: 200px;
+    
   }
   
   #chart {
@@ -10,9 +11,9 @@
   }
   
   .chart-legend {
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
+    margin-left: 10%;
+    
   }
   
   .chart-legend-item {
@@ -30,4 +31,23 @@
   
   .chart-legend-label {
     font-size: 14px;
+  }
+
+  .chart-legend-item {
+    animation: fade 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+  #chart {
+    animation: spin 8s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(60deg); }
   }

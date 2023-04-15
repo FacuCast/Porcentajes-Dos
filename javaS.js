@@ -1,6 +1,6 @@
-const data = [{ value: 6, color: 'red', label: 'Campos vacios' }, { value: 7, color: 'blue', label: 'Java' }, { value: 6, color: 'green', label: 'JavaScript' },
-{ value: 9, color: '#0e6251', label: 'Python' }, { value: 2, color: 'black', label: 'HTML' }, { value: 1, color: 'yellow', label: 'ReactJs' },
-{ value: 2, color: '#dc7633', label: 'NodeJS' }, { value: 1, color: '#99a3a4', label: 'SQL' }];
+const data = [{ value: 2, color: 'red', label: 'Visual Basic' }, { value: 3, color: 'blue', label: 'Java' }, { value: 2, color: 'green', label: 'Free Pascal' },
+{ value: 3, color: '#0e6251', label: 'HTML' }, { value: 4, color: 'black', label: 'Javascript' }, { value: 9, color: 'blueviolet', label: 'Python' },
+{ value: 2, color: '#dc7633', label: 'CSS' }, { value: 3, color: '#99a3a4', label: 'ReactJs' }, { value: 1, color: 'yellow', label: 'PHP' }, { value: 1, color: 'aquamarine', label: 'SQL' }];
 
 
 //multiplicar cantidad palabra * 100 / total de palabras
